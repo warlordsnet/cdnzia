@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #ffef00;
+    color: #14a1de;
     text-decoration: none
 }
 
@@ -44,7 +44,7 @@ button,
 
 .btn-highlight {
     font-weight: 600;
-    color: #ffef00;
+    color: #14a1de;
     font-size: 1.2em;
     position: relative;
     padding-left: 50px;
@@ -98,7 +98,7 @@ button,
     line-height: 40px;
     font-size: 20px;
     font-weight: 600;
-    color: #ffef00 !important;
+    color: #14a1de !important;
 }
 
 #xheader_menu {
@@ -135,7 +135,7 @@ button,
 }
 
 #xheader_menu ul.header_menu-list .nav-item>a:hover {
-    color: #ffef00;
+    color: #14a1de;
 }
 
 #xheader_browser {
@@ -158,7 +158,7 @@ button,
 }
 
 #xheader_browser.active .header-btn {
-    color: #ffef00;
+    color: #14a1de;
 }
 
 /* footer */
@@ -187,7 +187,7 @@ button,
     margin: 0;
     position: relative;
     z-index: 3;
-    background-image: url("https://cdn-eq4.pages.dev/anikatsu/files/images/anikatsu-bg.jpg");
+    background-image: url("https://cdnzia.pages.dev/images/zia-bg.webp");
     background-position: 50% 25%;
     background-size: cover;
 }
@@ -249,7 +249,7 @@ button,
     font-size: 28px;
     font-weight: 700;
     text-align: center;
-    color: #ffef00;
+    color: #14a1de;
     margin: 0 0 10px 0
 }
 
@@ -266,7 +266,7 @@ button,
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #ffef00;
+    background: #14a1de;
     left: 0;
     position: absolute;
     top: 8px;
@@ -299,7 +299,7 @@ button,
 
 #action-button {
     margin-bottom: 50px;
-    background: #ffef00;
+    background: #14a1de;
     border-radius: 0 0 30px 30px;
 }
 
@@ -347,7 +347,7 @@ button,
     cursor: pointer;
     display: inline-block;
     width: 50px;
-    background: #ffef00;
+    background: #14a1de;
     border-radius: 30px;
 }
 
@@ -365,7 +365,7 @@ button,
 
 .mw-buttons .btn-primary {
     font-weight: 600;
-    background: #ffef00 !important;
+    background: #14a1de !important;
     color: #111 !important;
     padding: 15px 30px;
     transition: all .2s ease 0s;
@@ -449,7 +449,7 @@ button,
 }
 
 .zr-news .item .zrn-title:hover {
-    color: #ffef00;
+    color: #14a1de;
 }
 
 .zr-news .item .zrn-title .news-title {
@@ -582,7 +582,7 @@ button,
     font-size: 12px;
     float: left;
     padding: 2px 0 2px 20px;
-    border-left: 2px solid #ffef00;
+    border-left: 2px solid #14a1de;
     margin-right: 20px;
     position: relative;
 }
@@ -590,7 +590,7 @@ button,
 .share-buttons .share-buttons-block .sbb-title span {
     font-weight: 600;
     font-size: 14px;
-    color: #ffef00;
+    color: #14a1de;
 }
 
 .share-buttons .share-buttons-block .sbb-social {
@@ -679,7 +679,7 @@ button,
     }
 
     #xheader_menu ul.header_menu-list .nav-item>a:hover {
-        color: #ffef00;
+        color: #14a1de;
     }
 
     #xheader_menu.active {
@@ -825,7 +825,7 @@ div.user-name.is-level-x span {
 }
 
 div.user-name.is-level-a {
-    color: #ffb526 !important;
+    color: #26b3ff !important;
 }
 
 div.user-name.is-level-b {
@@ -837,7 +837,7 @@ div.user-name.is-level-c {
 }
 
 div.user-name.is-level-d {
-    color: #4da6ff !important;
+    color: #db4ce6 !important;
 }
 
 div.user-name.is-level-mute {
@@ -918,7 +918,7 @@ div.user-name.is-level-mute {
 body.xmas-ui #mw-top .mwh-logo .mwh-logo-div{ width: 198px; height: 60px; background-image: url(../images/xmas/logo.png); background-size: cover;}
 body.xmas-ui #mw-top .mwh-logo .mwh-logo-div img{display: none;}
 body.xmas-ui .mw-keywords .mwk-item{ background: #0c3d42; color: #5eadb5;}
-body.xmas-ui .mw-keywords .mwk-item:hover{ color: #ffef00;}
+body.xmas-ui .mw-keywords .mwk-item:hover{ color: #14a1de;}
 body.xmas-ui #mw-top{ background: rgb(34,95,98); background: linear-gradient(0deg, rgba(34,95,98,1) 0%, rgba(34,95,98,0) 100%); }
 body.xmas-ui #mw-top:before{display: none;}
 body.xmas-ui .zr-news.zr-news-list{ background: rgb(15,80,87); background: linear-gradient(0deg, rgba(15,80,87,0) 0%, rgba(15,80,87,1) 50%, rgba(15,80,87,0) 100%); }

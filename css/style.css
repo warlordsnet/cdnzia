@@ -28,7 +28,7 @@ a {
 
 a:hover {
     transition: all .3s;
-    color: #ffef00
+    color: #009dff
 }
 
 img:hover {
@@ -69,12 +69,12 @@ h6 {
     padding: 1px 3px;
     font-size: 12px;
     margin: 5px 0;
-    border-bottom: 2px solid #ffef00;
+    border-bottom: 2px solid #00d5ff;
     font-weight: 400
 }
 
 .hm_nav:hover {
-    border-bottom: 2px solid #8a8a8a
+    border-bottom: 2px solid #d841e0
 }
 
 .btn-radius {
@@ -84,17 +84,17 @@ h6 {
 .btn-focus,
 .btn-primary,
 .btn-tab.active {
-    background: #ffef00 !important;
+    background: #4574ed !important;
     color: #111 !important;
-    border-color: #ffef00 !important;
+    border-color: #4574ed !important;
     box-shadow: none !important
 }
 
 .btn-focus:hover,
 .btn-primary:hover,
 .btn-tab.active:hover {
-    background: #cb8519 !important;
-    border-color: #cb8519 !important
+    background: #5e2fbd !important;
+    border-color: #5e2fbd !important
 }
 
 .btn-secondary,
@@ -256,7 +256,7 @@ h6 {
 }
 
 .highlight-text {
-    color: #ffef00
+    color: #009dff
 }
 
 .mat-icon {
@@ -330,7 +330,7 @@ h6 {
 
 #mobile_menu.active i,
 #mobile_search.active i {
-    color: #ffef00
+    color: #009dff
 }
 
 #mobile_menu i {
@@ -392,14 +392,14 @@ h6 {
 }
 
 #header_menu ul.header_menu-list .nav-item:hover>a {
-    color: #ffef00
+    color: #009dff
 }
 
 #header_menu ul.header_menu-list .nav-item.active>a:before {
     content: "";
     width: 100%;
     height: 3px;
-    background: #ffef00;
+    background: #009dff;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -445,7 +445,7 @@ h6 {
 }
 
 #header_menu .header_menu-sub ul.sub-menu li:hover a {
-    background: #ffef00;
+    background: #009dff;
     color: #111 !important
 }
 
@@ -542,7 +542,7 @@ h6 {
 
 #header .btn-on-header:hover {
     background: 0;
-    color: #ffef00 !important
+    color: #009dff !important
 }
 
 #header #search-toggle .btn-on-header {
@@ -550,7 +550,7 @@ h6 {
 }
 
 #header #search-toggle.active .btn-on-header {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -646,7 +646,7 @@ h6 {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #ffef00
+    color: #009dff
 }
 
 .header_right-user.logged .dropdown-menu {
@@ -670,7 +670,7 @@ h6 {
 }
 
 .header_right-user.logged .dropdown-menu .dropdown-item:hover {
-    color: #ffef00 !important
+    color: #009dff !important
 }
 
 .header_right-user.logged .dropdown-menu .dropdown-item-user {
@@ -712,7 +712,7 @@ h6 {
 }
 
 .hr-notifications.show .hrn-icon {
-    color: #ffef00
+    color: #009dff
 }
 
 .hr-notifications .hrn-icon .number {
@@ -911,7 +911,7 @@ h6 {
 
 .search-content .search-result-pop .nav-bottom {
     padding: 15px;
-    background: #ffef00 !important;
+    background: #009dff !important;
     font-size: 16px;
     color: #111;
     text-align: center;
@@ -964,13 +964,13 @@ h6 {
 
 .btn-sm.btn-filter-item:hover,
 .btn-sm.nl-item-btn:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 .btn-sm.btn-filter-item.active {
-    border-color: #ffef00;
+    border-color: #009dff;
     background: #3d3e39;
-    color: #ffef00
+    color: #009dff
 }
 
 .btn-sm.nl-item-btn {
@@ -994,7 +994,7 @@ h6 {
     font-weight: 400;
     padding: 0;
     margin: 0;
-    color: #ffef00
+    color: #009dff
 }
 
 .block_area .block_area-header .viewmore .btn {
@@ -1073,12 +1073,12 @@ h6 {
 }
 
 .pre-tabs .nav-item .nav-link:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 .pre-tabs .nav-item .nav-link.active {
-    color: #ffef00;
-    border-color: #ffef00
+    color: #009dff;
+    border-color: #009dff
 }
 
 .pre-tabs-min {
@@ -1101,7 +1101,7 @@ h6 {
 
 .pre-tabs-min .nav-item .nav-link.active {
     color: #000 !important;
-    background: #ffef00 !important
+    background: #009dff !important
 }
 
 .anw-tabs {
@@ -1127,7 +1127,7 @@ h6 {
 
 .anw-tabs .nav-item .nav-link.active {
     background: #51535b;
-    color: #ffef00
+    color: #009dff
 }
 
 .bah-tab-min .anw-tabs {
@@ -1140,7 +1140,7 @@ h6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffef00
+    color: #009dff
 }
 
 .film_list {
@@ -1352,7 +1352,7 @@ h6 {
 }
 
 .tick-item.tick-quality {
-    background: #ffdd95 color:#111
+    background: #77fcd0 color:#111
 }
 
 .tac {
@@ -1411,11 +1411,11 @@ h6 {
 }
 
 .pre-pagination .pagination .page-item .page-link:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 .pre-pagination .pagination .page-item.active .page-link {
-    background: #ffef00;
+    background: #009dff;
     color: #111;
     cursor: default
 }
@@ -1485,7 +1485,7 @@ h6 {
 
 .premodal .modal-content .close:hover {
     opacity: 1;
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -1545,7 +1545,7 @@ h6 {
 }
 
 .link-highlight {
-    color: #ffef00 !important;
+    color: #009dff !important;
     cursor: pointer
 }
 
@@ -1630,7 +1630,7 @@ h6 {
 }
 
 #sidebar_menu .sidebar_menu-list>.nav-item>a.nav-link:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 #sidebar_menu .sidebar_menu-list>.nav-item>.toggle-submenu {
@@ -1985,7 +1985,7 @@ ul.az-list li a {
 ul.az-list li a:hover,
 ul.az-list li.active a {
     color: #111;
-    background: #ffef00
+    background: #009dff
 }
 
 .main-az {
@@ -2029,7 +2029,7 @@ ul.az-list li.active a {
     line-height: 1.3em;
     margin: 0 0 15px;
     font-weight: 400;
-    color: #ffef00
+    color: #009dff
 }
 
 .btn-xs {
@@ -2215,7 +2215,7 @@ ul.az-list li.active a {
 }
 
 .text-home a {
-    color: #ffef00
+    color: #009dff
 }
 
 .text-home .btn-expand {
@@ -2317,7 +2317,7 @@ ul.az-list li.active a {
 
 .noti-list .noti-item.new .icon {
     opacity: 1;
-    color: #ffef00
+    color: #009dff
 }
 
 .noti-list .noti-item.new {
@@ -2476,7 +2476,7 @@ ul.az-list li.active a {
     line-height: 1.3em;
     font-weight: 400;
     margin-bottom: 20px;
-    color: #ffef00
+    color: #009dff
 }
 
 .deslide-item .desi-head-title {
@@ -2585,7 +2585,7 @@ ul.az-list li.active a {
 .anif-block .anif-block-header {
     font-size: 18px;
     font-weight: 500;
-    color: #ffef00;
+    color: #009dff;
     padding: 15px 20px
 }
 
@@ -2653,7 +2653,7 @@ ul.az-list li.active a {
 
 .anif-block-ul li .film-fav.active,
 .anif-block-ul li .film-fav:hover {
-    color: #ffef00;
+    color: #009dff;
     opacity: 1
 }
 
@@ -2664,7 +2664,7 @@ ul.az-list li.active a {
 }
 
 .anif-block-ul li .film-play:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 .anif-block .more a {
@@ -2751,8 +2751,8 @@ ul.color-list li:nth-of-type(7n+1) a {
 }
 
 ul.color-list li:nth-of-type(7n+2) a {
-    border-color: #ffdd95;
-    color: #ffdd95
+    border-color: #77fcd0;
+    color: #77fcd0
 }
 
 ul.color-list li:nth-of-type(7n+3) a {
@@ -2840,7 +2840,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .cbox.cbox-list .anif-block-chart li.item-top .film-number span {
-    border-bottom: 3px solid #ffef00;
+    border-bottom: 3px solid #009dff;
     padding-bottom: 6px;
     color: #fff
 }
@@ -3012,7 +3012,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .table_schedule .table_schedule-list li:hover .film-detail .fd-play .btn-play {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -3025,7 +3025,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .table_schedule .table_schedule-list li:hover .time {
-    color: #ffef00
+    color: #009dff
 }
 
 .table_schedule .table_schedule-date {
@@ -3050,7 +3050,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .table_schedule .table_schedule-date .tsd-item.active {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -3075,7 +3075,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .table_schedule .btn-showmore:hover {
-    color: #ffef00 !important
+    color: #009dff !important
 }
 
 .table_schedule-list.limit-8 li:nth-of-type(n+8) {
@@ -3506,12 +3506,12 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .player-controls .pc-item.pc-comment .btn i {
-    color: #ffef00
+    color: #009dff
 }
 
 .player-controls .pc-item.pc-comment .btn span {
     font-weight: 600;
-    color: #ffef00
+    color: #009dff
 }
 
 .dub-toggle {
@@ -3553,7 +3553,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .dub-toggle.active .dt-status {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -3789,7 +3789,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 
 .cfc-min-block .cmb-item .btn-sm {
     border: 0;
-    color: #ffef00;
+    color: #009dff;
     font-size: 12px;
     line-height: 1.1em;
     background: 0;
@@ -3871,7 +3871,7 @@ ul.color-list li:nth-of-type(7n+6) a {
     left: 0;
     bottom: 0;
     width: 4px;
-    background: #ffef00
+    background: #009dff
 }
 
 .ss-list .ssl-item .ssli-order {
@@ -3964,7 +3964,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .ss-list .ssl-item.active .ssli-order {
-    color: #ffef00 !important
+    color: #009dff !important
 }
 
 .ss-list .ssl-item.active .ssli-btn {
@@ -3972,7 +3972,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .ss-list .ssl-item.active .ssli-btn .btn.btn-circle {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -4147,7 +4147,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .ss-list.ss-list-min .ssl-item.active {
-    background: #ffef00 !important
+    background: #009dff !important
 }
 
 .ss-list.ss-list-min .ssl-item.active .ssli-order {
@@ -4300,7 +4300,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .inbox-item.new .highlight-text {
-    color: #ffef00
+    color: #009dff
 }
 
 .inbox-item.with-poster {
@@ -4423,7 +4423,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 .nli-select .custom-select {
     font-size: 12px;
     cursor: pointer;
-    color: #ffef00;
+    color: #009dff;
     background: #33353c;
     border: 0;
     max-width: 140px;
@@ -4778,7 +4778,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 
 .stx-center .stx-title {
     margin: 0;
-    color: #ffef00
+    color: #009dff
 }
 
 .stx-center .description {
@@ -4834,7 +4834,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .zr-news .item .zrn-title:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 .zr-news .item .zrn-title .news-title {
@@ -4943,7 +4943,7 @@ ul.color-list li:nth-of-type(7n+6) a {
     font-size: 2.5em !important;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #ffef00
+    color: #009dff
 }
 
 .news-article .article-content h1 {
@@ -5085,7 +5085,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .block-rating .rating-result .progress .progress-bar {
-    background-color: #ffef00 !important
+    background-color: #009dff !important
 }
 
 .block-rating .rating-result .rr-mark strong {
@@ -5183,7 +5183,7 @@ ul.color-list li:nth-of-type(7n+6) a {
     width: 60px;
     text-align: center;
     transform: translateY(-50%);
-    color: #ffef00
+    color: #009dff
 }
 
 .dt-comment:before {
@@ -5273,7 +5273,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .cw_l-line .ibody p a.tag-name {
-    color: #ffef00
+    color: #009dff
 }
 
 .cw_l-line .ibody.is-spoil p {
@@ -5302,11 +5302,11 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .cw_l-line .ibottom .ib-li .btn:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 .cw_l-line .ibottom .ib-li .btn.active {
-    color: #ffef00
+    color: #009dff
 }
 
 .cw_l-line .ibottom .ib-li.ib-like .btn.active i::before {
@@ -5341,7 +5341,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .rep-more .btn {
-    color: #ffef00;
+    color: #009dff;
     font-size: 13px;
     font-weight: 600;
     padding: 0;
@@ -5458,7 +5458,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .cb-li .btn.btn-spoil.active i {
-    background-color: #ffef00;
+    background-color: #009dff;
     color: #111;
     font-size: 10px
 }
@@ -5479,7 +5479,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .toggle-basic .tb-result {
-    color: #ffef00;
+    color: #009dff;
     font-weight: 500;
     margin-left: 3px;
     width: 19px
@@ -5566,7 +5566,7 @@ ul.color-list li:nth-of-type(7n+6) a {
     width: 18px;
     height: 18px;
     left: calc(100% - 18px);
-    background: #ffef00
+    background: #009dff
 }
 
 .hs-toggles .hst-item .hst-icon {
@@ -5580,7 +5580,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 .hs-toggles .hst-item .hst-icon i {
     font-size: 20px;
     line-height: 20px;
-    color: #ffef00
+    color: #009dff
 }
 
 .toggle-lang {
@@ -5604,7 +5604,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .toggle-lang>span.en {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -5614,7 +5614,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .toggle-lang.off>span.jp {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -5780,7 +5780,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .new-noti-list .nnl-item.new strong.manga-name {
-    color: #ffef00
+    color: #009dff
 }
 
 .new-noti-list .nnl-item .time {
@@ -5797,7 +5797,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .new-noti-list .nnl-item.nnl-more:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 .new-noti-list .nnl-mark {
@@ -5811,7 +5811,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .new-noti-list .nnl-mark .btn-xs:hover {
-    color: #ffef00
+    color: #009dff
 }
 
 .trending-list {
@@ -5852,7 +5852,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .trending-navi>div:hover {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -5907,7 +5907,7 @@ ul.color-list li:nth-of-type(7n+6) a {
     font-size: 24px;
     line-height: 1em;
     text-align: center;
-    color: #ffef00;
+    color: #009dff;
     z-index: 9;
     left: 0;
     right: 0
@@ -5977,7 +5977,7 @@ ul.color-list li:nth-of-type(7n+6) a {
     font-size: 12px;
     float: left;
     padding: 2px 0 2px 20px;
-    border-left: 2px solid #ffef00;
+    border-left: 2px solid #009dff;
     margin-right: 20px;
     position: relative
 }
@@ -5985,7 +5985,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 .share-buttons .share-buttons-block .sbb-title span {
     font-weight: 600;
     font-size: 14px;
-    color: #ffef00
+    color: #009dff
 }
 
 .share-buttons .share-buttons-block .addthis_inline_share_toolbox {
@@ -6616,8 +6616,8 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .screen-items .item:hover .icon-play {
-    background: #ffef00;
-    border-color: #ffef00
+    background: #009dff;
+    border-color: #009dff
 }
 
 .screen-items .item:hover .icon-play i {
@@ -6625,7 +6625,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .screen-items .item:hover .sii-title {
-    color: #ffef00
+    color: #009dff
 }
 
 .premodal.premodal-video .modal-content .modal-body {
@@ -6841,7 +6841,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 
 .live__-wrap .item .live-info .owner .uc-info strong {
     font-weight: 600;
-    color: #ffef00;
+    color: #009dff;
     max-width: 110px;
     display: block;
     float: left
@@ -7045,7 +7045,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .choose-type .pre-tabs-min .nav-item .nav-link.active {
-    background: #ffef00 !important
+    background: #009dff !important
 }
 
 .choose-name .form-control {
@@ -7120,7 +7120,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .live___-detail .film-name .ep-style {
-    color: #ffef00
+    color: #009dff
 }
 
 .live___-detail .film-stats {
@@ -7200,7 +7200,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 .live_-start .ls__-tabs li a.nav-link.active {
     background: 0 0 !important;
     padding: 0;
-    color: #ffef00 !important
+    color: #009dff !important
 }
 
 .live_-start .ls__-tabs li a.nav-link.active i,
@@ -7410,7 +7410,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .ls___-animeinfo .film-info .film-name .ep-style {
-    color: #ffef00
+    color: #009dff
 }
 
 .ls___-animeinfo .film-info .film-description {
@@ -7482,7 +7482,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .ls___-detail .live-stats .item.item-online {
-    color: #ffef00
+    color: #009dff
 }
 
 .ls___-detail .live-stats .item.item-online span:after {
@@ -7605,7 +7605,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 .ls___-chatbox .chatbox_wrap .chatbox_-input .form-control-textarea:focus {
     background: #252c44;
     border-color: transparent;
-    box-shadow: 0 0 0 2px #ffef00
+    box-shadow: 0 0 0 2px #009dff
 }
 
 .ls___-chatbox .chatbox_wrap .chatbox_-input .form-control-textarea::placeholder {
@@ -7689,7 +7689,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .chatbox_-room .item.item-mine .ic_text .name {
-    color: #ffef00
+    color: #009dff
 }
 
 .chatbox_-room .item.item-mine:before {
@@ -7697,7 +7697,7 @@ ul.color-list li:nth-of-type(7n+6) a {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #ffef00;
+    background: #009dff;
     position: absolute;
     top: 10px;
     left: -13px
@@ -7905,7 +7905,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 .ls___-player-cd .player-countdown .countdown-style {
     font-size: 3em;
     font-weight: 700;
-    color: #ffef00
+    color: #009dff
 }
 
 .ls___-player .pc-share {
@@ -7919,7 +7919,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .ls___-player .pc-share a {
-    color: #ffef00;
+    color: #009dff;
     font-weight: 600
 }
 
@@ -8097,7 +8097,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .choose-thumbnail .lv-list .item.active {
-    border-color: #ffef00;
+    border-color: #009dff;
     z-index: 2;
     opacity: 1;
     box-shadow: 0 20px 20px rgba(0, 0, 0, .2)
@@ -8130,7 +8130,7 @@ ul.color-list li:nth-of-type(7n+6) a {
     right: auto;
     width: 230px;
     border-radius: 6px 0 0 6px;
-    background: #ffef00
+    background: #009dff
 }
 
 .player-servers .ps_-status .server-notice {
@@ -8198,7 +8198,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 .player-servers .ps_-block .ps__-title i {
     width: 16px;
     text-align: left;
-    color: #ffef00
+    color: #009dff
 }
 
 .player-servers .ps_-block .small {
@@ -8209,7 +8209,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 
 .player-servers .ps_-block .small strong {
     font-weight: 600;
-    color: #ffef00
+    color: #009dff
 }
 
 .ps__-list .item {
@@ -8229,7 +8229,7 @@ ul.color-list li:nth-of-type(7n+6) a {
 }
 
 .ps__-list .item .btn.active {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -8341,7 +8341,7 @@ span#AddMalDiv {
 span#AddMalDiv #AddMal {
     font-size: 12px;
     font-weight: 600;
-    color: #ffef00 !important
+    color: #009dff !important
 }
 
 .fav-tabs {
@@ -8796,7 +8796,7 @@ span#AddMalDiv #AddMal {
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
-    background: #ffef00;
+    background: #009dff;
     color: #111;
     z-index: 2;
     box-shadow: 0 0 5px rgba(0, 0, 0, .4);
@@ -8827,7 +8827,7 @@ span#AddMalDiv #AddMal {
 }
 
 .pre-tabs-hashtag .nav-item .nav-link.active {
-    color: #ffef00 !important;
+    color: #009dff !important;
     background: 0 0 !important
 }
 
@@ -8860,7 +8860,7 @@ span#AddMalDiv #AddMal {
 }
 
 #toast-container>div.toast-success {
-    background-color: #ffef00 !important;
+    background-color: #009dff !important;
     color: #000 !important;
     background-image: none !important
 }
@@ -9221,7 +9221,7 @@ span#AddMalDiv #AddMal {
 }
 
 .pre-qtip-detail .pqd-li.badge-quality {
-    background: #ffdd95 !important;
+    background: #77fcd0 !important;
     color: #000;
     font-weight: 600;
     border-radius: 5px !important;
@@ -9258,7 +9258,7 @@ span#AddMalDiv #AddMal {
 .pre-qtip-button .btn.btn-play {
     width: calc(100% - 48px);
     color: #111;
-    background: #ffef00
+    background: #009dff
 }
 
 .pre-qtip-button .dr-tip-fav {
@@ -9383,7 +9383,7 @@ span#AddMalDiv #AddMal {
 #slider .sc-detail .scd-item .quality {
     display: inline-block;
     padding: 3px 4px;
-    background: #ffef00;
+    background: #009dff;
     color: #111;
     border-radius: 3px;
     line-height: 1em;
@@ -9915,7 +9915,7 @@ span#AddMalDiv #AddMal {
 }
 
 .swiper-button:hover {
-    background: #ffef00;
+    background: #009dff;
     color: #111
 }
 
@@ -11897,7 +11897,7 @@ span#AddMalDiv #AddMal {
     }
 
     .player-servers .ps_-status .server-notice strong b {
-        color: #ffef00;
+        color: #009dff;
         margin-top: 5px
     }
 
