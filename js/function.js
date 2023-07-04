@@ -45,7 +45,7 @@ function checkIfBookmarked(listName, animeName) {
 
 window.onload = function() {
      
-   document.getElementsByClassName('dynamic-name');
+  var elements = document.getElementsByClassName('dynamic-name');
 if (elements.length > 0) {
     var nameText = elements[0].innerText;
 }
