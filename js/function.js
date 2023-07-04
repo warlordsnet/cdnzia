@@ -24,20 +24,21 @@ function saveToPlaylist(listName, animeName, animeUrl, imgUrl) {
 }
 
 function checkIfBookmarked(listName, animeName) {
+    console.log('checkIfBookmarked called with', listName, animeName);
+
     // Retrieve the current list from local storage
     var list = JSON.parse(localStorage.getItem(listName)) || [];
+    console.log('list', list);
 
     // Check if the item already exists in the list
     var exists = list.some(function(item) {
         return item.animeName === animeName;
     });
+    console.log('exists', exists);
 
     // Add the custom CSS class to the "Save to Playlist" button if the item already exists
     if (exists) {
+        console.log('adding active class');
         document.getElementById('save-to-playlist-button').classList.add('active');
     }
 }
-window.onload = function() {
-    checkIfBookmarked('Anime List', 'Naruto (dub)');
-};
-
