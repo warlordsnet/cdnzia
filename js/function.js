@@ -42,6 +42,12 @@ function checkIfBookmarked(listName, animeName) {
         document.getElementById('save-to-playlist-button').classList.add('active');
     }
 }
+var elements = document.getElementsByClassName('dynamic-name');
+if (elements.length > 0) {
+    var innerText = elements[0].innerText;
+    console.log(innerText);
+}
+
 window.onload = function() {
-    checkIfBookmarked('Anime List', '<?=$getAnime['name']?>');
+    checkIfBookmarked('Anime List', 'innerText');
 };
