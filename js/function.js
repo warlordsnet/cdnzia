@@ -1,9 +1,5 @@
 $(document).ready(function () { $('a.tooltipEl, img.tooltipEl').tooltip({ classes: { "ui-tooltip": "highlight" }, position: { my: 'left center', at: 'right+0 center' }, content: function (result) { $.post('', { animeid: $(this).attr('animeid') }, function (data) { result(data); }); } }); }); $(document).ready(function () { $("#searching").keyup(function () { let searchText = $(this).val(); if (searchText != "") { $.ajax({ url: "/theme/6anime/pages/ajax.search.php", method: "post", data: { query: searchText, }, success: function (response) { $("#search-suggest").html(response); }, }); } else { $("#search-suggest").html(""); } }); $(document).on("click", "a", function () { $("#searching").val($(this).text()); $("#search-suggest").html(""); }); });
 
-window.onload = function() {
-    checkIfBookmarked('Anime List', 'Naruto (dub)');
-};
-
 
 function saveToPlaylist(listName, animeName, animeUrl, imgUrl) {
     // Retrieve the current list from local storage
@@ -41,3 +37,7 @@ function checkIfBookmarked(listName, animeName) {
         document.getElementById('save-to-playlist-button').classList.add('active');
     }
 }
+window.onload = function() {
+    checkIfBookmarked('Anime List', 'Naruto (dub)');
+};
+
