@@ -44,11 +44,10 @@ function checkIfBookmarked(listName, animeName) {
 }
 
 window.onload = function() {
-     
-  var elements = document.getElementsByClassName('dynamic-name');
+    var elements = document.getElementsByClassName('dynamic-name');
 if (elements.length > 0) {
     var nameText = elements[0].innerText;
 }
-    checkIfBookmarked('Anime List', nameText);
-    console.log('innertext is' nameText);
+    console.log('innertext is', nameText);
+    checkIfBookmarked('Anime List', 'Naruto (dub)');
 };
