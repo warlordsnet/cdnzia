@@ -36,12 +36,15 @@ function checkIfBookmarked(listName, animeName) {
     });
     console.log('exists', exists);
 
-    // Add the custom CSS class to the "Save to Playlist" button if the item already exists
+   // Add the custom CSS class to the "Save to Playlist" button if the item already exists
+    var savbutton = document.getElementById('save-to-playlist-button');
     if (exists) {
-        
-        var savebutton = document.getElementById('save-to-playlist-button');
-        savebutton.classList.add('active');
-        
-        savebutton.innertext = "Saved"; console.log('adding innertext to button');
+        savbutton.classList.add('active');
+         console.log('active class add');
+        savbutton.innerText = 'Saved to list';
+    } else {
+        savbutton.classList.remove('active');
+        console.log('active class remove');
+        savbutton.innerText = 'Watch later';
     }
 }
