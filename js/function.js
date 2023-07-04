@@ -39,7 +39,8 @@ function checkIfBookmarked(listName, animeName) {
     // Add the custom CSS class to the "Save to Playlist" button if the item already exists
     if (exists) {
         console.log('adding active class');
-        document.getElementById('save-to-playlist-button').classList.add('active');
-        document.getElementById('save-to-playlist-button').innertext = "Saved"
+        var savebutton = document.getElementById('save-to-playlist-button');
+        savebutton.classList.add('active');
+        savebutton.innertext = "Saved";
     }
 }
