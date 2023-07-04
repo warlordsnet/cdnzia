@@ -42,9 +42,5 @@ function checkIfBookmarked(listName, animeName) {
         savbutton.classList.add('active');
          console.log('active class add');
         savbutton.innerText = 'Saved to list';
-    } else {
-        savbutton.classList.remove('active');
-        console.log('active class remove');
-        savbutton.innerText = 'Watch later';
-    }
+    } 
 }
