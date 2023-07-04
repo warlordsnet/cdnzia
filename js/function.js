@@ -43,5 +43,5 @@ function checkIfBookmarked(listName, animeName) {
     }
 }
 window.onload = function() {
-    checkIfBookmarked('Anime List', 'Naruto (dub)');
+    checkIfBookmarked('Anime List', '<?=$getAnime['name']?>');
 };
