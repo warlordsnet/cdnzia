@@ -49,5 +49,5 @@ if (elements.length > 0) {
 
 window.onload = function() {
      console.log(innerText);
-    checkIfBookmarked('Anime List', 'innerText');
+    checkIfBookmarked('Anime List', '$innerText');
 };
