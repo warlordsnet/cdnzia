@@ -42,3 +42,6 @@ function checkIfBookmarked(listName, animeName) {
         document.getElementById('save-to-playlist-button').classList.add('active');
     }
 }
+window.onload = function() {
+    checkIfBookmarked('Anime List', 'Naruto (dub)');
+};
