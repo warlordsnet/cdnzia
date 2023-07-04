@@ -42,12 +42,14 @@ function checkIfBookmarked(listName, animeName) {
         document.getElementById('save-to-playlist-button').classList.add('active');
     }
 }
-var elements = document.getElementsByClassName('dynamic-name');
+document.getElementsByClassName('dynamic-name');
 if (elements.length > 0) {
     var innerText = elements[0].innerText;
 }
 
 window.onload = function() {
-     console.log(innerText);
+     
+    document.document.querySelectorAll('dynamic-name').innerText;
     checkIfBookmarked('Anime List', innerText);
+    console.log('innertext is' innerText);
 };
