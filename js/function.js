@@ -49,5 +49,5 @@ if (elements.length > 0) {
     var nameText = elements[0].innerText;
 }
     console.log('innertext is', nameText);
-    checkIfBookmarked('Anime List', 'Naruto (dub)');
+    checkIfBookmarked('Anime List', nameText);
 };
