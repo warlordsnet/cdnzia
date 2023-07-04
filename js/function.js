@@ -40,14 +40,6 @@ function checkIfBookmarked(listName, animeName) {
     if (exists) {
         console.log('adding active class');
         document.getElementById('save-to-playlist-button').classList.add('active');
+        document.getElementById('save-to-playlist-button').innertext = "Saved"
     }
 }
-
-window.onload = function() {
-    var elements = document.getElementsByClassName('dynamic-name');
-if (elements.length > 0) {
-    var nameText = elements[0].innerText;
-}
-    console.log('innertext is', nameText);
-    checkIfBookmarked('Anime List', nameText);
-};
